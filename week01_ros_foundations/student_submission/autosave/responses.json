@@ -1,20 +1,116 @@
 {
-  "checked_evidence_ids": {},
-  "completed_missions": [],
+  "checked_evidence_ids": {
+    "mission_1": "f5a5c2fff489f102",
+    "mission_2": "b562b593900f9702",
+    "mission_3": "c4cf1ec5314f7d71"
+  },
+  "completed_missions": [
+    "mission_1",
+    "mission_2",
+    "mission_3"
+  ],
   "lab_id": "week01_ros_foundations",
   "responses": {
+    "final.architecture_evidence": "One piece of evidence that makes my node reactive is that once the robot got close to the wall, it stopped. This is because the decide_velocity function is subscribed to the node. To make this hybrid, we would need to add a sequence of steps for the robot to at least attempt. ",
+    "final.course_reflection": "Doing this lab made me brainstorm some personal project ideas that I could work on. It gave me an idea of how robotics software of robotics works on a surface level. This is something that we often do not think about, as we mainly think about the hardware. Like \"An arm that does x\", or \"a sensor that looks out for y\", but we don't think about how that arm will decide how it will move. Or how the data from the sensor will be handled. So because of this, this lab motivated me to want to do more robotics work. The activities we have done in class have also motivated me to want to do more robotics work. For example, watching the video where the blind lady was testing an app made me realise that we could be doing so much more for people with disabilities using technology. And that is where I see most of the value in robotics: aiding humanity. We can use robotics either to do things we cannot do, like fly. But we can also use robotics to help those who cannot do things that we as a human species can already do, like walk. We can take our imagination and think; we can use technology and robotics to help people see, or help a heart pump blood better, in some future where robotics is more advanced. For now, we can help people do simpler things like navigate a building or use a phone (which is what was being done in the video we saw in class). ",
+    "final.hardware_next": "I would test when a distance in inf, as that can occur when the robot is at the edge of a table. Will it fall off?",
+    "final.middleware_debugging": "The ROS can help by allowing you to see the connection between components and inspecting them to see where things went wrong. ",
+    "final.system_synthesis": "Robotic hardware is difficult because there are a lot of components that one needs to keep track of in order to achive ones goal. The first one is file structure. In this lab, we were given a repository with all the needed files in their respective places, but organizing your own project is a journey of its own. Then we have the software. I am on a MacBook Pro with an M5 chip, and running Docker, as well as the virtual desktop, makes the laptop hot and the battery drain a bit faster than what I have seen before. This means that you need a relatively powerful machine to be able to run robotics hardware. The architecture that I implemented was a reactive architecture, where the robot constantly reacts to its sensor data. It is like the robot is reacting \"live\", or on the spot, rather than having a predetermined plan. The ROS 2 middleware is what made this possible by allowing compatible information from the sensors to communicate. We used a LiDAR sensor to read the distance to objects. The sensor then shares information to the /scan topic, because LiDAR publishes to /scan. The obstacle node is another component that processes the sensor data that it receives from /scan by subscribing to /scan. We have function components that make decisions based on the information processed by the nodes, and this occurs because the functions subscribe to the node. The layer that would restrict unsafe motion decision functions, decide_velocity, and front_distance. They set values depending on the readings of the sensor. Since we are dealing with a sensor, we need to consider when the sensor gives us an invalid reading. In our functions, we had safety guards, like if distance == None: return 0.0, to make the velocity 0.0 when we did not know the distance to an object. ",
+    "final.timing_evidence": "A recorded timing that affected my understanding was when we added a velocity. That's when I saw the actual robot. I thought the robot was the outside structure. ",
+    "mission_1.command_path_explanation": "Student_cmd_vel is the intended input. But we need to verify if that intended input is appropriate. Our safety check will determine whether it is and make a final decision, which is the cmd_vel. ",
+    "mission_1.graph_explanation": "A ROS 2 graph shows how different running components interact with each other. ",
+    "mission_1.guided_checks": {
+      "bridge_info": true,
+      "command_topics": true,
+      "guard_info": true,
+      "node_list": true,
+      "scan_info": true,
+      "scan_message": true
+    },
+    "mission_1.scan_observation": "I found some distances to be infinite. I assume that it is because nothing was found in that direction. I would say this is outside of the robot, while the numerical measurements are taken within the robot.",
+    "mission_1.tools_explanation": "Gazebo is responsible for simulating the robot. RViz is responsible for displaying the data from the sensors of the robot in Gazebo. ",
+    "mission_2.measurement_explanation": "For the cirved path, I believ the start to end distance is less because the estimated meassurement does nto account for the turning. That is why on the other trials with no rotation the estimated traveled path is the same as the start to end distance. ",
+    "mission_2.modified_settings": {
+      "angular_z": 0.8,
+      "duration": 4.0,
+      "linear_x": 0.15
+    },
+    "mission_2.motion_comparison": "I chose the last trial, where I chose my own rotation and linear movement. I imagines the robot would turn about 180 degrees, and it came close as the direction chnage was 176 degrees. I though the tobot would travel more, since the cirve was sharper, but the start to end distance was only 0.374 meters",
+    "mission_2.prediction_locks": {
+      "curve": "2026-09-11T21:00:47.517908+00:00",
+      "curve_modified": "2026-09-11T21:04:24.636754+00:00",
+      "rotation": "2026-09-11T20:57:20.181152+00:00",
+      "straight": "2026-09-11T20:52:29.080240+00:00"
+    },
+    "mission_2.predictions": {
+      "curve": "I predict that the shape to be a semi-circle type of shape, as the robot turns right because the turning speed is negative. ",
+      "curve_modified": "This curve should be sharper and the end point deeper, because the angle of turn is much higher than before, and the robot is moving faster.",
+      "rotation": "I predict the robots position will be the same, but its direction will chnage 1.50 radians to the left from its starting position. ",
+      "straight": "I predict that the robot will finish 0.45 meters away from the starting point"
+    },
+    "mission_2.safety_explanation": "The command guard checks if the incoming commands are appropriate. \nThe final zero command stops the robot once it reaches the goal.\nThe timeout is needed if we ever lose connection with the command center. ",
+    "mission_3.data_to_command": "My two functions turn a list of LiDAR distances into move or stop commands by checking the entries of that list. We have different if statements to handle different cases, such as missing distance information (where we stop the robot). ",
+    "mission_3.missing_data_safety": "The robot stops because there is a lack of information, and to have a fail-safe system, we go to a \"safer\" state, which is a stop. We need to figure out why information is missing. ",
+    "mission_3.system_layers": "The three components work together to instruct the robot. Command guard reads the obstacles in front, the ROS node works with the decision functions to decide on a velocity for the robot. ",
     "part_1.activity": {
       "hardware": {
-        "changed": false,
-        "normal": false
+        "changed": true,
+        "normal": true
       },
       "sensor": {
-        "changed": false,
-        "normal": false
+        "changed": true,
+        "normal": true
       },
       "timing": {
-        "changed": false,
-        "normal": false
+        "changed": true,
+        "normal": true
+      }
+    },
+    "part_2.activity": {
+      "behavior": {
+        "changed": true,
+        "normal": true
+      },
+      "deliberative": {
+        "changed": true,
+        "normal": true
+      },
+      "hybrid": {
+        "changed": true,
+        "normal": true
+      },
+      "reactive": {
+        "changed": true,
+        "normal": true
+      },
+      "safety": {
+        "changed": true,
+        "normal": true
+      }
+    },
+    "part_3.activity": {
+      "communication": {
+        "service": true,
+        "topic": true
+      },
+      "failure": {
+        "healthy": true,
+        "sensor": true,
+        "type": true,
+        "visualization": true
+      },
+      "inspection": {
+        "broken": true,
+        "echo": true,
+        "node_info": true,
+        "nodes": true,
+        "services": true,
+        "topic_info": true,
+        "topics": true
+      },
+      "middleware": {
+        "multiple": true,
+        "single": true
       }
     }
   },
@@ -23,5 +119,5 @@
     "email": "Brayhan.Morrobel@hunter.cuny.edu",
     "name": "Brayhan"
   },
-  "updated_at": "2026-09-08T20:39:01.861821+00:00"
+  "updated_at": "2026-09-13T01:29:14.505841+00:00"
 }
