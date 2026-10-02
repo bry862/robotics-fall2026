@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-10-01T10:49:13",
+  "mission_id": "mission_1",
+  "student": {
+    "name": "Brayhan Morrobel",
+    "student_id": "24243032",
+    "section": ""
+  },
+  "explanations": {
+    "prediction": "Too little Kd, might make the arm stop before its target, or make the hand not hold on with enough force. Too little Kp means both the arm and hands will not adjust properly.",
+    "tuning_analysis": "I predicted a low kp will not allow the arm to reach its target, and I was right. So I put it higher, and the same idea with the kd."
+  },
+  "params": {
+    "activity": "two_link_arm_pid_tuning",
+    "kp1": 7.5,
+    "ki1": 1.7,
+    "kd1": 2.95,
+    "kp2": 12,
+    "ki2": 2.8,
+    "kd2": 4.55,
+    "gravityCompensation": false
+  },
+  "metrics": {
+    "completed": true,
+    "posesHeld": 3,
+    "posesRequired": 3
+  },
+  "checkin": {
+    "note": "I predicted a low kp will not allow the arm to reach its target, and I was right. So I put it higher, and the same idea with the kd.",
+    "choice": "",
+    "complete": true
+  },
+  "csv_files": {},
+  "activity_gifs": [
+    "latest_arm_tuning.gif"
+  ]
+}
