@@ -1,0 +1,45 @@
+{
+  "files": {
+    "autosave/responses.json": "7e3700cf98e738fee368f6196784a82ea462d583a044c3d47759188cb93d4ec7",
+    "autosave/responses.md": "67d139b136771a7f5d3178d11016432fbcae378d27ace2fd92cc8e87eac9960d",
+    "autosave/responses.recovery.608184cd0066437f9b9d7de79b47e493.json": "b616497cba819356e715c6b3aef6db28004a7bc5ea1d065b9a787e23d79c2452",
+    "autosave/responses.recovery.6249545384aa489aba907c1f78879465.json": "d6027f8e6f1d7576ea175d03168c512b8c8907aa52c4415d195130af2c4eaad9",
+    "autosave/responses.recovery.7a25f2566e67472ea2b16143bd124a8e.json": "3cdf2c55f8bd6490128311980e96f402611a4efb28cb5f521495637f74ee475b",
+    "autosave/responses.recovery.90a48e04d52947a580fabac838fb6879.json": "1721013ea463cc80538b4cba4e3ac4e122bbde03314ceb7be13f4f1ac78f8968",
+    "autosave/responses.recovery.97f30043c36d4bce944e0f5c167b9bc4.json": "41494a30a3eb65c517da544c91bfa1f46098a56914848b1b706d0f243fb7026e",
+    "autosave/responses.recovery.b233b57b7fbf45fda1abc852fcd8eb5c.json": "1e215315b20fef03ab4205c5ef2238ab67bacbfdd5113b302347ee089e63c0e1",
+    "autosave/responses.recovery.bdd149e6086540afb708b6ef3bef2617.json": "3ff62f1cca305789c79e5668ac17fc52b4d5ede376218dd5787286eb19c91e0c",
+    "autosave/responses.recovery.bf018252969048e5a1d91e8f9e728c73.json": "c63fb1fe866572f086485ca2e1b192032b550d1950162d0c11a36ba99459b52d",
+    "autosave/responses.recovery.df43e81a315e4554b9d47b774b9a1ccf.json": "ade421b5f67c551a40c912750744c0b0ff161404640d5d5da7975f8233e7eea4",
+    "autosave/responses.recovery.ebc91574e2184c6a8bad06c72cf28493.json": "bd5d7cf835c35e409a94835150e01dc95b3c0bf4892a17eec9aafa13c9f8f853",
+    "autosave/responses.recovery.f4f123c585ff41cd95299c2b5536cf9c.json": "9e0974c5a389d9fac078886c90264a19e2909fb945679e307a0b40b0ecd2b136",
+    "final_reflection.md": "e3fbc32b8cf6d1337a560b17f6fc89993153a7db987264a99710c2d76a86e329",
+    "final_synthesis.md": "6721ab4d76b52e1241bfabecf9ebb8bef715793d721571f24a00bfa074ad166e",
+    "mission_1/evidence.png": "d3e80bf0b3b6dac1d2d91cc75e0a373c3aab192d7b41c329543ce6fad0d36905",
+    "mission_1/explanation.md": "c58e8a81dc1067a29a3f99d82830d8abcbdd655441e9f276ba2608ce32896caa",
+    "mission_1/measurements.csv": "f47505da1f0faae41dac6fd4db169efd0de4351b14d75aa513bd9fcd5c98edff",
+    "mission_1/submission.json": "9404180cfcff6d80bb0281e58bd1330b6e59a13666550ee549bce1ed3afe2001",
+    "mission_2/evidence.png": "25393adc2d576783a1afbdcf0534410c82e8393d5ffd25a3b40243c0e9186d87",
+    "mission_2/explanation.md": "311268e547ce7826f6ea3d81adf57bf47cfe1a70ae079fbecd070485b3a94470",
+    "mission_2/measurements.csv": "3122e2a8bff37362563ceeae8447a92f7b8dd3f94167cdef0736faa8efc5d046",
+    "mission_2/submission.json": "589fda67a68fa7d4ac5e5b4941adb0546ac12bb67b232991bfbd6c25914f3a3b",
+    "mission_3/explanation.md": "91a3ffa32ecc106e059672e3028b5d1906ace0c24f0ed346be0fb6649f535f74",
+    "mission_3/measurements.csv": "d13148f01c401eadf5ceefd47dbb8094e34342b20a707b087d0961b43c3c8f18",
+    "mission_3/submission.json": "9ea95616f28d538dc0a37a684a246213ac397efee10f58f9ccc3952637e44ecf",
+    "student.json": "6c9b95cf44906b063d84aeb24d8729f55d84f21cc65ed08175b828a867261b07"
+  },
+  "generated_at": "2026-10-10T22:56:10.216922+00:00",
+  "lab_id": "week05_sensors_uncertainty",
+  "mission_signatures": {
+    "mission_1": "302e269d4a54080d",
+    "mission_2": "ca1f7c43d5cc67dd",
+    "mission_3": "419bbc0e5b615888"
+  },
+  "response_signature": "1f0b803c037e85e1",
+  "schema_version": 2,
+  "student": {
+    "course_id": "24243032",
+    "email": "Brayhan.morrobel32@hunter.cuny.edu",
+    "name": "Brayhan Morrobel"
+  }
+}
