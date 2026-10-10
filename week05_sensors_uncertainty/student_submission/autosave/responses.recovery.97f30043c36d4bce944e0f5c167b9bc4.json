@@ -1,0 +1,73 @@
+{
+  "checked_evidence_ids": {
+    "mission_1": "302e269d4a54080d"
+  },
+  "completed_missions": [
+    "mission_1"
+  ],
+  "content_version": 2,
+  "identity_locked": true,
+  "lab_id": "week05_sensors_uncertainty",
+  "legacy_evidence": {},
+  "mission_2_attempts": [],
+  "mission_2_controls": {
+    "alpha": 0.35,
+    "method": "Raw/hold last",
+    "weight_a": 0.25,
+    "window": 5
+  },
+  "mission_3_attempts": {},
+  "mission_3_controls": {},
+  "mission_3_results": {},
+  "prediction_locks": {
+    "mission_1": {
+      "settings": {
+        "seed": 627662153
+      },
+      "text": "The mean will achieve this. Because a noisy sensor will have many scattered random meassurements throughout, while a consistently biased sensor will be around the same meassurements."
+    }
+  },
+  "responses": {
+    "concepts.observation": "Increasing noise increased the number of readings. Increasing bias only chnaged the truth. ",
+    "mission_1.bias": "0.03",
+    "mission_1.bias_vs_variance": "Variance describes spread, which could be caused by incorrect meassuremnts. Bias hints towards a sensor malfunction. ",
+    "mission_1.dropouts": "9",
+    "mission_1.mean": "2",
+    "mission_1.median": "2",
+    "mission_1.more_samples": "No, bcause the issue is that it has too much spread. The variance is 0.01, and we want it as close to 0 as possible",
+    "mission_1.outliers": "4",
+    "mission_1.prediction": "The mean will achieve this. Because a noisy sensor will have many scattered random meassurements throughout, while a consistently biased sensor will be around the same meassurements.",
+    "mission_1.prediction_draft": "The mean will achieve this. Because a noisy sensor will have many scattered random meassurements throughout, while a consistently biased sensor will be around the same meassurements. ",
+    "mission_1.profile": "noisy",
+    "mission_1.robot_consequence": "For example, say we want to count how many people are in a room, because the spread is too wide, we will get the incorrect number. Say someone needs this information, to take attendance for example, the attendance will be incorrect. ",
+    "mission_1.variance": "0.04043308518538645",
+    "mission_2.comparison": "",
+    "mission_2.fusion_choice": "",
+    "mission_2.manual_average": "4.167",
+    "mission_2.manual_fusion": "",
+    "mission_2.manual_median": "2.3",
+    "mission_2.prediction_draft": "",
+    "mission_2.responsiveness": ""
+  },
+  "reviewed_walkthroughs": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "schema_version": 2,
+  "stage": "mission_2",
+  "student": {
+    "course_id": "24243032",
+    "email": "Brayhan.morrobel32@hunter.cuny.edu",
+    "name": "Brayhan Morrobel"
+  },
+  "updated_at": "2026-10-10T20:40:18.104260+00:00",
+  "visited_stages": [
+    "intro",
+    "concepts",
+    "mission_1",
+    "mission_2"
+  ],
+  "walkthrough_index": 3
+}
