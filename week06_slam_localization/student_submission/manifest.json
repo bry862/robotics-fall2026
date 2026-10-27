@@ -1,0 +1,35 @@
+{
+  "files": {
+    "autosave/responses.json": "ba392cbf530c34032f87725244da0eb77860760d5e8e0c555cd2eb2f2a162d57",
+    "autosave/responses.md": "e81f2b8b824ec8977975ba18ea7392fdab3be603e1222d3b2dfc640f013dd8fd",
+    "final_reflection.md": "4d982e457d4bb86ab34f535d813bf2fd50c8048e6a7672d9b8b509b42308726c",
+    "final_synthesis.md": "12713400054718950672076279f3b41a012275ddeeabd98bbebd86dc52c94911",
+    "mission_1/analysis.json": "51e39d529e1ada5ec1c449123d09df704211d4816f3b86653a70e96ef68531e0",
+    "mission_1/evidence.json": "70f17d0803f6fc832b8cb66a340081b3fd6cb481a64d7def390b4c6ba643ebf2",
+    "mission_1/explanation.md": "4660aa81673c5c7d0dc8fe7de6afdaf13792265e888ff5ae92a2919cbe6ef307",
+    "mission_1/map.pgm": "2a8d37e68b65b946c3e53ff1749511049bed83100f3cebd4684dae1dbbe114bc",
+    "mission_1/map.yaml": "a748b91caa26368749812b064ff23c771c28b07492c8901ab313af329cc14284",
+    "mission_1/rviz_screenshot.png": "28057154877105980598e24c4aba07a48be03f7cfc7da24d751a79c620f30091",
+    "mission_1/submission.json": "da54a585b0b0b1fda391ee48802ff9441b64f6e6440f85359ee7e5ce168091fd",
+    "mission_2/analysis.json": "c777dcd33d96f7951db505a64a14b654692d12fe86b42aae496c8e94adb2acfe",
+    "mission_2/evidence.json": "9b651d59d35a0bc25197ce87a42de4e8bd8aef7f1f695f17bf7c6a74cf921f74",
+    "mission_2/explanation.md": "227f644b2e36bd401ee377c82f22de4cd1f421ca910e521fcc96bdaf2ce2ae79",
+    "mission_2/map.pgm": "665a4870e248c7a4f54d93dbe956d1d03222e3fb746ea3e3925e08bd333eb78d",
+    "mission_2/map.yaml": "de1f8b62d9c8eb4d7360635d04aaf831542203874631bac7ef0cf73e8b442fb6",
+    "mission_2/rviz_screenshot.png": "5cbdb1bb6aee7be9d9c4cf892bc71d5dfffe9d2dcb0275ef917cc94218bf3ceb",
+    "mission_2/submission.json": "27160ab54a83a72a8b599cf40f95389a14ff2f82bb9a9832e4a57b6301e26704",
+    "student.json": "32e8fca91d0a955add4a76d66bbbdf92dcee8a1642efef5e3d9f298bd789b71f"
+  },
+  "generated_at": "2026-10-27T23:11:09.111848+00:00",
+  "lab_id": "week06_slam_localization",
+  "mission_signatures": {
+    "mission_1": "811d57069e9069e6",
+    "mission_2": "037f39225c817dde"
+  },
+  "response_signature": "181463cc7e120c3a",
+  "schema_version": 2,
+  "student": {
+    "email": "brayhan.morrobel32@myhunter.cuny.edu",
+    "name": "Brayhan Morrobel"
+  }
+}
