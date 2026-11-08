@@ -1,0 +1,19 @@
+[INFO] [1794175641.715454969] [lab8_experiment_probe]: Waiting for Nav2 planning and path-following actions
+[INFO] [1794175642.221155636] [lab8_experiment_probe]: Waiting for map-frame robot position and lidar
+[INFO] [1794175644.881474387] [lab8_experiment_probe]: Waiting for planner_server lifecycle activation
+[INFO] [1794175646.036419512] [lab8_experiment_probe]: Waiting for controller_server lifecycle activation
+[INFO] [1794175646.038123554] [lab8_experiment_probe]: Waiting for velocity_smoother lifecycle activation
+[INFO] [1794175646.541542221] [lab8_experiment_probe]: Waiting for collision_monitor lifecycle activation
+[INFO] [1794175646.543714763] [lab8_experiment_probe]: Nav2 ready. Preparing the requested path
+[INFO] [1794175646.553222179] [lab8_experiment_probe]: Computing the human-aware potential-field path
+[INFO] [1794175646.558390596] [lab8_experiment_probe]: Following path: 0 simulated seconds, estimated goal distance awaiting first execution checkpoint
+[INFO] [1794175651.561355334] [lab8_experiment_probe]: Following path: 5 simulated seconds, estimated goal distance 8.37 m
+[INFO] [1794175656.563534837] [lab8_experiment_probe]: Following path: 10 simulated seconds, estimated goal distance 7.43 m
+[INFO] [1794175661.565847131] [lab8_experiment_probe]: Following path: 15 simulated seconds, estimated goal distance 6.75 m
+[INFO] [1794175666.571212425] [lab8_experiment_probe]: Following path: 20 simulated seconds, estimated goal distance 5.44 m
+[INFO] [1794175671.573731969] [lab8_experiment_probe]: Following path: 25 simulated seconds, estimated goal distance 4.09 m
+[INFO] [1794175676.576529929] [lab8_experiment_probe]: Following path: 30 simulated seconds, estimated goal distance 3.44 m
+[INFO] [1794175681.579246292] [lab8_experiment_probe]: Following path: 35 simulated seconds, estimated goal distance 2.26 m
+[INFO] [1794175686.581122837] [lab8_experiment_probe]: Following path: 40 simulated seconds, estimated goal distance 1.39 m
+[INFO] [1794175691.313837672] [lab8_experiment_probe]: Finishing trial: succeeded
+{"status": "succeeded", "output": "/workspace/week09_planning_navigation/runtime/trials/open_rrt_0_social_1_3202a10122/result.json"}

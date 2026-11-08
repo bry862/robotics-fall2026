@@ -1,0 +1,5 @@
+{
+  "mission_3.prediction": "Changing Repulsion strength changed repulsion and resultant. Increasing it made both vlues less, further down the negative x axis. \n\n",
+  "mission_3.comparison": "Open a* had a minimum person distnace of 0.769, and a personal space_s of 0. So the wider space caused less distance. ",
+  "mission_3.recommendation": "I would keep A with social_2*. Planner: A*, Condition: social_2, Status: Succeeded, Minimum person clearance: 0.844 m, Execution time: 46.7 s, Distance: 13.181 m"
+}

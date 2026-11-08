@@ -1,0 +1,4 @@
+{
+  "mission_1.search": "For BFS and A*, the path length are 13.5 for both. Expanded is 928 for BFS and for A* it is 700.",
+  "mission_1.failure": "DFS path length is twice as short. "
+}

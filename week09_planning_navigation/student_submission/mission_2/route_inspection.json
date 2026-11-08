@@ -1,0 +1,14 @@
+{
+  "run_id": "open_bfs_0_baseline_8f8b80ea45",
+  "map": "open",
+  "planner": "bfs",
+  "sample": 273,
+  "point": {
+    "t": 29.7,
+    "x": 3.7845646837777824,
+    "y": -2.7323834621904357,
+    "speed_mps": 0.17162389736644634
+  },
+  "tracking_error_m": 0.09043531622221757,
+  "feature": "Straight segment"
+}

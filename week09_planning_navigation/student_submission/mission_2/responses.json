@@ -1,0 +1,5 @@
+{
+  "mission_2.prediction": "BFS and A* on the constrained map.\nPrediction: BFS explores cells uniformly outward. A* uses Manhattan distance to prioritize cells closer to the goal. Therefore, A* should generally expand fewer cells and plan faster.",
+  "mission_2.performance": "Yes. A* had a slightly shorter planning time and successfully completed navigation, while BFS encountered a controller failure.",
+  "mission_2.choice": "The advantage that matters most is running time. "
+}

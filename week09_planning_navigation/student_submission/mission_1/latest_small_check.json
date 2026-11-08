@@ -1,0 +1,21 @@
+{
+  "status": "succeeded",
+  "error": "",
+  "planning_s": 7.090000053722179e-07,
+  "expanded": 0,
+  "peak_frontier": 0,
+  "path": [
+    [
+      1,
+      1
+    ]
+  ],
+  "path_length_m": 0.0,
+  "optimal_length_m": 0.0,
+  "optimality_ratio": 1.0,
+  "case": "Start equals goal",
+  "planner": "astar",
+  "source_sha256": "2bfdf717e420eadf634e660f4cefc0cf218efb394bf66a70d9669cce72b0211e",
+  "expected_status": "succeeded",
+  "check_passed": true
+}
