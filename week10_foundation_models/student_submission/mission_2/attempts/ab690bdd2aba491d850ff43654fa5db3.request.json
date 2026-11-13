@@ -1,0 +1,14 @@
+{
+  "job_id": "ab690bdd2aba491d850ff43654fa5db3",
+  "kind": "vision",
+  "case": "custom",
+  "prompt": "I choose Decide.\nThe robot needs to mark a circle on a flat wooden workpiece. Which visible tool in the photograph could help accomplish this task? Explain what visible features support your choice",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-13T23:28:02.843973+00:00",
+  "comparison_ids": [
+    "c0105c39e2454a9eae8852f7bd3d2ed0",
+    "faecff8e78c84d36bab61142ac63927a",
+    "859181bbf2bf4bca9fc3535e5a46537a"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "job_id": "beb5bd9bf00c42b59ae34ddf2b7e662d",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Starting at base, navigate to the shelf and inspect the cup using your camera. Report what you observe about the cup. Do not attempt to pick up or move the cup. If you cannot identify the cup, report that instead of guessing.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-13T23:24:56.266666+00:00",
+  "comparison_ids": [
+    "5b53f6e14acb4ad9bd054ab624dce089",
+    "163d161880334bf7b4448295af40c08d",
+    "b968fe0c27f145aaa2c4c544ea25e23e"
+  ]
+}

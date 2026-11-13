@@ -1,0 +1,162 @@
+{
+  "version": 2,
+  "run_id": "c89ef9705d3041b2bfbfa44d4c96909a",
+  "mission": "mission_2",
+  "saved_at": "2026-11-13T23:28:34.877467+00:00",
+  "settings": {
+    "experiment": "local-live-v2",
+    "model": {
+      "id": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "revision": "a7da5b986cb59b408707209984f360a5f4ad7e47"
+    }
+  },
+  "rows": [
+    {
+      "job_id": "c0105c39e2454a9eae8852f7bd3d2ed0",
+      "kind": "vision",
+      "case": "identify",
+      "prompt": "What tool is lying in the foreground of this workbench?",
+      "phase": "baseline",
+      "parent_id": null,
+      "requested_at": "2026-11-13T23:26:42.079282+00:00",
+      "comparison_ids": [],
+      "output": "Tape measure.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "What tool is lying in the foreground of this workbench?",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 4,
+      "max_new_tokens": 80,
+      "generation_seconds": 1.272,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "reused_prefix_tokens": 0,
+      "completed_at": "2026-11-13T23:26:43.462491+00:00"
+    },
+    {
+      "job_id": "faecff8e78c84d36bab61142ac63927a",
+      "kind": "vision",
+      "case": "spatial",
+      "prompt": "Where is the black vertical metal post relative to the tool in the foreground?",
+      "phase": "baseline",
+      "parent_id": null,
+      "requested_at": "2026-11-13T23:26:44.704535+00:00",
+      "comparison_ids": [],
+      "output": "The black vertical metal post is to the right of the tool in the foreground.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "Where is the black vertical metal post relative to the tool in the foreground?",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 17,
+      "max_new_tokens": 80,
+      "generation_seconds": 2.914,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "reused_prefix_tokens": 0,
+      "completed_at": "2026-11-13T23:26:47.802030+00:00"
+    },
+    {
+      "job_id": "859181bbf2bf4bca9fc3535e5a46537a",
+      "kind": "vision",
+      "case": "purpose",
+      "prompt": "A robot needs the correct tool for its task. Which object in this image should it pick up?",
+      "phase": "baseline",
+      "parent_id": null,
+      "requested_at": "2026-11-13T23:26:49.404289+00:00",
+      "comparison_ids": [],
+      "output": "The robot needs the correct tool for its task. The correct tool is a measuring tape.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "A robot needs the correct tool for its task. Which object in this image should it pick up?",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 19,
+      "max_new_tokens": 80,
+      "generation_seconds": 3.518,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "reused_prefix_tokens": 0,
+      "completed_at": "2026-11-13T23:26:52.948181+00:00"
+    },
+    {
+      "job_id": "ab690bdd2aba491d850ff43654fa5db3",
+      "kind": "vision",
+      "case": "custom",
+      "prompt": "I choose Decide.\nThe robot needs to mark a circle on a flat wooden workpiece. Which visible tool in the photograph could help accomplish this task? Explain what visible features support your choice",
+      "phase": "custom",
+      "parent_id": null,
+      "requested_at": "2026-11-13T23:28:02.843973+00:00",
+      "comparison_ids": [
+        "c0105c39e2454a9eae8852f7bd3d2ed0",
+        "faecff8e78c84d36bab61142ac63927a",
+        "859181bbf2bf4bca9fc3535e5a46537a"
+      ],
+      "output": "The visible tool that could help accomplish this task is a circle marker. The circle marker is a tool that is used to mark a circle on a flat wooden workpiece. This tool is essential for marking circles in woodworking and other crafts.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "I choose Decide.\nThe robot needs to mark a circle on a flat wooden workpiece. Which visible tool in the photograph could help accomplish this task? Explain what visible features support your choice",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 47,
+      "max_new_tokens": 80,
+      "generation_seconds": 7.062,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "reused_prefix_tokens": 0,
+      "completed_at": "2026-11-13T23:28:09.923570+00:00"
+    }
+  ],
+  "responses": {
+    "analysis": "The experiment shows that providing a specific goal helps the model make more relevant decisions. However, even with a clearer question, the model can misidentify objects in an image."
+  },
+  "extra": {
+    "draft_signature": "3733e128659849f9a78df2dc1d2f373996446149a74d0eb063eb77cf33c4d576",
+    "upstream_run": "eb7df2746bd348e39ac44912067b2d29"
+  }
+}

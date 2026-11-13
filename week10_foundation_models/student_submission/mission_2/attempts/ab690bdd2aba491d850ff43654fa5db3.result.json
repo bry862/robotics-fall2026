@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "record": {
+    "job_id": "ab690bdd2aba491d850ff43654fa5db3",
+    "kind": "vision",
+    "case": "custom",
+    "prompt": "I choose Decide.\nThe robot needs to mark a circle on a flat wooden workpiece. Which visible tool in the photograph could help accomplish this task? Explain what visible features support your choice",
+    "phase": "custom",
+    "parent_id": null,
+    "requested_at": "2026-11-13T23:28:02.843973+00:00",
+    "comparison_ids": [
+      "c0105c39e2454a9eae8852f7bd3d2ed0",
+      "faecff8e78c84d36bab61142ac63927a",
+      "859181bbf2bf4bca9fc3535e5a46537a"
+    ],
+    "output": "The visible tool that could help accomplish this task is a circle marker. The circle marker is a tool that is used to mark a circle on a flat wooden workpiece. This tool is essential for marking circles in woodworking and other crafts.",
+    "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+    "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+    "system_prompt": "",
+    "model_input": "I choose Decide.\nThe robot needs to mark a circle on a flat wooden workpiece. Which visible tool in the photograph could help accomplish this task? Explain what visible features support your choice",
+    "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+    "image_preprocessing": {
+      "longest_edge": 512,
+      "image_splitting": false
+    },
+    "generated_tokens": 47,
+    "max_new_tokens": 80,
+    "generation_seconds": 7.062,
+    "truncated": false,
+    "decoding": "greedy",
+    "device": "cpu",
+    "live_inference": true,
+    "library_versions": {
+      "torch": "2.8.0+cpu",
+      "transformers": "4.57.1"
+    },
+    "output_constraint": null,
+    "reused_prefix_tokens": 0,
+    "completed_at": "2026-11-13T23:28:09.923570+00:00"
+  }
+}

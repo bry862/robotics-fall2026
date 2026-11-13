@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "record": {
+    "job_id": "beb5bd9bf00c42b59ae34ddf2b7e662d",
+    "kind": "language",
+    "case": "custom",
+    "prompt": "Starting at base, navigate to the shelf and inspect the cup using your camera. Report what you observe about the cup. Do not attempt to pick up or move the cup. If you cannot identify the cup, report that instead of guessing.",
+    "phase": "custom",
+    "parent_id": null,
+    "requested_at": "2026-11-13T23:24:56.266666+00:00",
+    "comparison_ids": [
+      "5b53f6e14acb4ad9bd054ab624dce089",
+      "163d161880334bf7b4448295af40c08d",
+      "b968fe0c27f145aaa2c4c544ea25e23e"
+    ],
+    "output": "I will navigate to the shelf and inspect the cup using my camera. I will report what I observe about the cup, such as its material, size, and any visible features. I will not attempt to pick up or move the cup. If I cannot identify the cup, I will report that instead of guessing.",
+    "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+    "system_prompt": "You are helping a mobile robot. It starts at base. It can navigate to base, shelf or desk, inspect a known object, report observations, or stop. There is a cup on the shelf and a book on the desk. The robot has a camera and wheels but no arm or gripper. It cannot pick up or carry objects. Suggest a short plan using only these capabilities. If information is missing, ask a specific clarification question. If the task is impossible for this robot, explain why. Use at most four short sentences.",
+    "model_input": "Starting at base, navigate to the shelf and inspect the cup using your camera. Report what you observe about the cup. Do not attempt to pick up or move the cup. If you cannot identify the cup, report that instead of guessing.",
+    "image_sha256": null,
+    "image_preprocessing": null,
+    "generated_tokens": 64,
+    "max_new_tokens": 96,
+    "generation_seconds": 8.006,
+    "truncated": false,
+    "decoding": "greedy",
+    "device": "cpu",
+    "live_inference": true,
+    "library_versions": {
+      "torch": "2.8.0+cpu",
+      "transformers": "4.57.1"
+    },
+    "output_constraint": null,
+    "reused_prefix_tokens": 0,
+    "completed_at": "2026-11-13T23:25:04.309164+00:00"
+  }
+}

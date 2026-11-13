@@ -1,0 +1,29 @@
+{
+  "job_id": "9e38bb3f5ee14d26afa734328faa7e63",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Reach the blue target crate at (11,1), starting from (1,7). Follow this route in order:\n\n1. Move UP until row 1.\n2. Move RIGHT until column 7.\n3. Move DOWN until row 7.\n4. Move RIGHT until column 11.\n5. Move UP until row 1.\n\nAt every step, check your current coordinates and determine which part of the route remains. Only move in the direction specified by the current route segment. Do not alternate between directions, repeat completed segments, or choose STOP unless you have reached the target. Never attempt to move into a wall. Once you reach (11,1), choose STOP.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-13T23:31:44.717872+00:00",
+  "comparison_ids": [
+    "6a8b0598d15047c0b1034a56f1feefa1",
+    "e16199d2d959440c895436a57fa05f36",
+    "47a5cd9bdb6b4cddb1a3c0b768cc52b9"
+  ],
+  "task": "robot",
+  "robot_state": {
+    "position": [
+      1,
+      7
+    ],
+    "step": 0,
+    "history": [],
+    "finished": false,
+    "goal_reached": false,
+    "first_goal_step": null,
+    "last_feedback": "No previous action.",
+    "last_decision": null
+  },
+  "simulator_contract": "8da30a943bd97ee39237aa05e8e6800fecdecbef3ce692d7d4e48f851679060f"
+}

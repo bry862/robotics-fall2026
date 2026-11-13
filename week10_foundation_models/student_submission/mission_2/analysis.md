@@ -1,0 +1,1 @@
+The experiment shows that providing a specific goal helps the model make more relevant decisions. However, even with a clearer question, the model can misidentify objects in an image.
